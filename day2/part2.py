@@ -1,4 +1,4 @@
-# O(N^2)
+# O(N)
 
 l = list(open("./input.txt", 'r').readlines())
 

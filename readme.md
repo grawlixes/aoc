@@ -1,7 +1,7 @@
-Solutions for https://adventofcode.com/
+Solutions for https://adventofcode.com/2020
 
-To keep things fair, I'll release solutions 2-25 the day after the problem is released at the earliest. According to the admins, problem 1 is not counted toward anyone's scores, so I'll upload it earlier.
+I'll release all solutions after the first 100 correct answers are submitted for each part of each question.
 
 Notable positions:
 
-Day 2, part 2: 184th
+Day 2, part 2 - 184th
