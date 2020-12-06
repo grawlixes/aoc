@@ -1,0 +1,13 @@
+Solution and time (in seconds) for day 6
+
+p1:
+Traceback (most recent call last):
+  File "part1.py", line 1, in <module>
+    l = list(el.strip() for el in open("./in2.txt", 'r').readlines())
+FileNotFoundError: [Errno 2] No such file or directory: './in2.txt'
+Command exited with non-zero status 1
+0.12
+
+p2:
+3299
+0.03
