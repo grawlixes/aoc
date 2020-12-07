@@ -27,19 +27,13 @@ for line in l:
             contains[first].add((num, cont))
             contained[cont].add(first)
 
-dfs = [("shiny gold", 0)]
-ret = set()
+dfs = ["shiny gold"]
 seen = set()
 while dfs:
-    bag, ct = dfs.pop()
+    bag = dfs.pop()
+    if bag not in seen:
+        seen.add(bag)
+        for c in contained.get(bag, set()):
+            dfs.append(c)
 
-    if bag in seen:
-        continue
-    seen.add(bag)
-    if ct:
-        ret.add(bag)
-
-    for c in contained.get(bag, set()):
-        dfs.append((c, ct + 1))
-
-print(len(ret))
+print(len(seen) - 1)
