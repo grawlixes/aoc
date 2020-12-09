@@ -56,3 +56,10 @@ Day 8:
     part 1: 82!!!! Finally got top 100!
 
     part 2: 680 (well, shit. can't win them all)
+
+
+Day 9:
+
+    part 1: 1272
+
+    part 2: 507
