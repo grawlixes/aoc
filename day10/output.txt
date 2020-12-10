@@ -1,0 +1,9 @@
+Solution and time (in seconds) for day 10
+
+p1:
+2100
+0.02
+
+p2:
+16198260678656
+0.02
