@@ -69,3 +69,9 @@ Day 10:
     part 1: 878
 
     part 2: 464
+
+Day 11:
+
+    part 1: 423
+
+    part 2: 265
