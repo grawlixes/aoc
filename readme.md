@@ -75,3 +75,9 @@ Day 11:
     part 1: 423
 
     part 2: 265
+
+Day 12:
+
+    part 1: 170
+
+    part 2: 2611

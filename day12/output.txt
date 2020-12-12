@@ -1,0 +1,9 @@
+Solution and time (in seconds) for day 12
+
+p1:
+582
+0.03
+
+p2:
+52069
+0.04
