@@ -81,3 +81,15 @@ Day 12:
     part 1: 170
 
     part 2: 2611
+
+Day 13:
+
+    part 1: 415
+
+    part 2: 881
+
+Day 14:
+
+    part 1: 280
+
+    part 2: 554

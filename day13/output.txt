@@ -1,0 +1,9 @@
+Solution and time (in seconds) for day 13
+
+p1:
+2382
+0.05
+
+p2:
+906332393333683
+0.02

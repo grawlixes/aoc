@@ -1,0 +1,9 @@
+Solution and time (in seconds) for day 14
+
+p1:
+11612740949946
+0.04
+
+p2:
+3394509207186
+0.11
