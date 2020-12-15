@@ -2,7 +2,7 @@
 
 year=$1
 day=$2
-dir="$1/day$day"
+dir="../$1/day$day"
 cd $dir
 
 program1="part1.py"
