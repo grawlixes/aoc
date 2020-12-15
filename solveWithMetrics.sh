@@ -1,14 +1,15 @@
 # This script takes a day (1 - 25) as an input, and for that day, runs the code I wrote and pipes the solution and execution time into a file.
 
-day=$1
-dir="day$day"
+year=$1
+day=$2
+dir="$1/day$day"
 cd $dir
 
 program1="part1.py"
 program2="part2.py"
 output="output.txt"
 
-echo "Solution and time (in seconds) for day" $1 > $output
+echo "Solution and time (in seconds) for day" $day > $output
 echo >> $output
 
 echo "Executing both parts from day" $day

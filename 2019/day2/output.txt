@@ -1,0 +1,9 @@
+Solution and time (in seconds) for day 2
+
+p1:
+2782414
+0.02
+
+p2:
+9820
+0.26

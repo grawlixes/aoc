@@ -1,0 +1,9 @@
+Solution and time (in seconds) for day 5
+
+p1:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 16489636]
+0.02
+
+p2:
+9386583
+0.02

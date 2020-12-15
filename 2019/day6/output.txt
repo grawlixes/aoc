@@ -1,0 +1,9 @@
+Solution and time (in seconds) for day 6
+
+p1:
+162816
+0.02
+
+p2:
+304
+0.02

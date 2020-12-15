@@ -1,0 +1,9 @@
+Solution and time (in seconds) for day 4
+
+p1:
+931
+0.44
+
+p2:
+609
+0.46
