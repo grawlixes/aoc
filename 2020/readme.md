@@ -93,3 +93,9 @@ Day 14:
     part 1: 280
 
     part 2: 554
+
+Day 15:
+
+    part 1: 453
+
+    part 2: 254
