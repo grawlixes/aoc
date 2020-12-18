@@ -1,0 +1,9 @@
+Solution and time (in seconds) for day 17
+
+p1:
+211
+0.38
+
+p2:
+1952
+22.50

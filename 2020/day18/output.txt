@@ -1,0 +1,9 @@
+Solution and time (in seconds) for day 18
+
+p1:
+6811433855019
+0.04
+
+p2:
+129770152447927
+0.03

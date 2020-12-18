@@ -1,0 +1,9 @@
+Solution and time (in seconds) for day 16
+
+p1:
+20048
+0.03
+
+p2:
+4810284647569
+0.18
