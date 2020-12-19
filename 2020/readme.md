@@ -99,3 +99,27 @@ Day 15:
     part 1: 453
 
     part 2: 254
+
+Day 16:
+    
+    part 1: 524
+    
+    part 2: 2570
+
+Day 17:
+
+    part 1: 2650
+
+    part 2: 3496
+
+Day 18:
+
+    part 1: 711
+
+    part 2: 1864
+
+Day 19:
+
+    part 1: 2815
+
+    part 2: 1424

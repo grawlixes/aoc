@@ -1,0 +1,9 @@
+Solution and time (in seconds) for day 19
+
+p1:
+210
+12.85
+
+p2:
+422
+16.11
