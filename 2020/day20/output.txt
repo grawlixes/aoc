@@ -1,0 +1,9 @@
+Solution and time (in seconds) for day 20
+
+p1:
+27798062994017
+2.83
+
+p2:
+2366
+19.65
