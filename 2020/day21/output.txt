@@ -1,0 +1,9 @@
+Solution and time (in seconds) for day 21
+
+p1:
+1977
+0.03
+
+p2:
+dpkvsdk,xmmpt,cxjqxbt,drbq,zmzq,mnrjrf,kjgl,rkcpxs
+0.02

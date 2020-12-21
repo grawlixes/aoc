@@ -1,0 +1,9 @@
+Solution and time (in seconds) for day 23
+
+p1:
+27956483
+0.02
+
+p2:
+18930983775
+30.41

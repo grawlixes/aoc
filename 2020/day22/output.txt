@@ -1,0 +1,9 @@
+Solution and time (in seconds) for day 22
+
+p1:
+35299
+0.03
+
+p2:
+33266
+3.36

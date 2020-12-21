@@ -129,3 +129,21 @@ Day 20:
     part 1: 1912
 
     part 2: 805
+
+Day 21:
+
+    part 1: 808
+
+    part 2: 744
+
+Day 22:
+
+    part 1: 259
+
+    part 2: 3007
+
+Day 23:
+
+    part 1: 874
+
+    part 2: 214
