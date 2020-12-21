@@ -1,0 +1,9 @@
+Solution and time (in seconds) for day 7
+
+p1:
+mkxke
+0.03
+
+p2:
+268
+0.03

@@ -4,19 +4,23 @@ import math
 from collections import deque
 
 sample = None
-#sample = list(el.strip() for el in open("./sampleInput.txt", 'r').readlines())
+try:
+    pass
+    #sample = list(el.strip() for el in open("./sampleInput.txt", 'r').readlines())
+except:
+    pass
+
 mine = list(el.strip() for el in open("./input.txt", 'r').readlines())
 
 for prob in [sample, mine]:
     if not prob or not prob[0]:
         continue
 
-    c = prob[0]
-    nxt = len(c) // 2
+    # START CODING HERE
     ret = 0
-    a = list(map(int, c))
-    for i, num in enumerate(a):
-        ret += (num == a[(i + nxt) % len(a)]) * num
-        prev = num
-    
+    for line in prob:
+        spl = line.split(' ')
+        if len(spl) == len(set(spl)):
+            ret += 1
+
     print(ret)

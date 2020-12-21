@@ -1,17 +1,9 @@
 Solution and time (in seconds) for day 1
 
 p1:
-Traceback (most recent call last):
-  File "part1.py", line 6, in <module>
-    sample = list(el.strip() for el in open("./sampleInput.txt", 'r').readlines())
-FileNotFoundError: [Errno 2] No such file or directory: './sampleInput.txt'
-Command exited with non-zero status 1
-0.10
+1253
+0.02
 
 p2:
-Traceback (most recent call last):
-  File "part2.py", line 6, in <module>
-    sample = list(el.strip() for el in open("./sampleInput.txt", 'r').readlines())
-FileNotFoundError: [Errno 2] No such file or directory: './sampleInput.txt'
-Command exited with non-zero status 1
-0.10
+1278
+0.02

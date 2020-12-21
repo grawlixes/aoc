@@ -14,7 +14,6 @@ for prob in [sample, mine]:
     for l in prob:
         mi, ma = float('inf'), -float('inf')
         for n in map(int, l.split('\t')):
-            print(n)
             mi = min(mi, n)
             ma = max(ma, n)
 

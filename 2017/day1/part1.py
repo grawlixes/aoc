@@ -3,7 +3,8 @@ from itertools import permutations, combinations
 import math
 from collections import deque
 
-sample = list(el.strip() for el in open("./sampleInput.txt", 'r').readlines())
+sample = None
+#sample = list(el.strip() for el in open("./sampleInput.txt", 'r').readlines())
 mine = list(el.strip() for el in open("./input.txt", 'r').readlines())
 
 for prob in [sample, mine]:
