@@ -1,0 +1,9 @@
+Solution and time (in seconds) for day 24
+
+p1:
+436
+0.04
+
+p2:
+4133
+1.74
