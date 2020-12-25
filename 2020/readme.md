@@ -1,6 +1,6 @@
 Solutions for https://adventofcode.com/2020
 
-I'll release all solutions after the first 100 correct answers are submitted for each part of each question.
+This year was a lot of fun. I only ended up with 19 global points due to my Day 8 performance, but I ended up in third place on our private leaderboard in [The Programmer's Hangout](https://theprogrammershangout.com/about/) and I learned a lot!
 
 Day 1
 
@@ -147,3 +147,15 @@ Day 23:
     part 1: 874
 
     part 2: 214
+
+Day 24:
+
+    part 1: 1667
+
+    part 2: 868
+
+Day 25:
+
+    part 1: 751
+
+    part 2: 642
