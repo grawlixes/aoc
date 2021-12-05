@@ -28,3 +28,9 @@ Day 4
     part 1: 192
 
     part 2: 662
+
+Day 5
+
+    part 1: 328
+
+    part 2: 136
