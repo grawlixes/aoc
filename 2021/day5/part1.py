@@ -47,7 +47,7 @@ for prob in [sample, personal]:
             inc[0] += 1
             cur = [min(e[0], s[0]), e[1]]
             lim = [max(e[0], s[0]), e[1]]
-        print(cur, lim)
+        
         while cur != lim:
             imm = tuple(cur)
             ct[imm] = ct.get(imm, 0) + 1
@@ -57,6 +57,5 @@ for prob in [sample, personal]:
         ct[imm] = ct.get(imm, 0) + 1
 
 
-    print(ct)
     print(sum(ct[el] > 1 for el in ct))
 
