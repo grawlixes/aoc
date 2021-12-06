@@ -34,3 +34,9 @@ Day 5
     part 1: 328
 
     part 2: 136
+
+Day 6
+
+    part 1: 145
+
+    part 2: 152
