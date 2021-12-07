@@ -3,7 +3,7 @@ Solution and time (in seconds) for day 6
 p1:
 5934
 352151
-0.64
+0.08
 
 p2:
 26984457539

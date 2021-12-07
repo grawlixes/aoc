@@ -1,0 +1,11 @@
+Solution and time (in seconds) for day 7
+
+p1:
+37
+356922
+0.05
+
+p2:
+168
+100347031
+0.77

@@ -3,9 +3,9 @@ Solution and time (in seconds) for day 5
 p1:
 5
 7468
-0.14
+0.17
 
 p2:
 12
 22364
-0.20
+0.21

@@ -3,11 +3,11 @@ Solution and time (in seconds) for day 4
 p1:
 4512
 44736
-0.05
+0.14
 
 p2:
 148 13
 1924
 261 7
 1827
-0.10
+0.09

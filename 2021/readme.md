@@ -40,3 +40,9 @@ Day 6
     part 1: 145
 
     part 2: 152
+
+Day 7
+
+    part 1: 115
+
+    part 2: 331
