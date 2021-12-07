@@ -3,9 +3,9 @@ Solution and time (in seconds) for day 2
 p1:
 150
 1938402
-0.05
+0.06
 
 p2:
 900
 1947878632
-0.03
+0.05

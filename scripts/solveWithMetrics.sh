@@ -15,12 +15,12 @@ echo >> $output
 echo "Executing both parts from day" $day
 
 echo "p1:" >> $output
-{ \time -f "%e" python3 $program1; } >> $output 2>&1
+{ \time -f "%e" pypy $program1; } >> $output 2>&1
 echo >> $output
 
 echo "Completed part 1 from day" $day
 
 echo "p2:" >> $output
-{ \time -f "%e" python3 $program2; } >> $output 2>&1
+{ \time -f "%e" pypy $program2; } >> $output 2>&1
 
 echo "Completed part 2 from day" $day 
