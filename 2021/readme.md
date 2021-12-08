@@ -46,3 +46,9 @@ Day 7
     part 1: 115
 
     part 2: 331
+
+Day 8
+
+    part 1: 656
+
+    part 2: 100

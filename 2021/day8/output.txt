@@ -1,0 +1,11 @@
+Solution and time (in seconds) for day 8
+
+p1:
+26
+390
+0.09
+
+p2:
+61229
+1011785
+0.09
