@@ -52,3 +52,9 @@ Day 8
     part 1: 656
 
     part 2: 100
+
+Day 9
+
+    part 1: 95
+
+    part 2: 41

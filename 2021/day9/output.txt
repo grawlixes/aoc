@@ -1,0 +1,11 @@
+Solution and time (in seconds) for day 9
+
+p1:
+15
+528
+0.10
+
+p2:
+1134
+920448
+0.10
