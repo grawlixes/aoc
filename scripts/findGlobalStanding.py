@@ -10,6 +10,8 @@ from sys import argv
 from os import path, listdir, mkdir
 from subprocess import check_call, DEVNULL
 from datetime import datetime, timezone, timedelta
+from time import sleep
+from random import randint
 
 CACHE = "./.leaderboard-cache/"
 
@@ -32,9 +34,25 @@ days = listdir(CACHE)
 cur = len(days) + 1
 # downloads the leaderboard positions from the site if we haven't found them
 # don't mess with this folder unless you plan to delete it entirely
-while cur <= day:
+days_to_acquire = day - cur + 1
+r = [randint(20, 30) for _ in range(days_to_acquire - 1)]
+if days_to_acquire > 1:
+    print("Downloading %i leaderboard files." % days_to_acquire)
+    print("This program sleeps for 20-30 seconds between requests to avoid " + \
+          "bombarding the servers. To learn more about why that's necessary, see here:\n" + \
+          "https://www.reddit.com/r/adventofcode/comments/rcxx2a/i_wrote_a_script_to_tell_you_your_global_rank/")
+
+while days_to_acquire > 0:
     check_call(["curl", "https://adventofcode.com/2021/leaderboard/day/%i" % cur], stdout=open(".leaderboard-cache/day%i.txt" % cur, 'w'), stderr=DEVNULL)
     cur += 1
+    days_to_acquire -= 1
+
+    if days_to_acquire >= 1:
+        i = len(r) - days_to_acquire
+        print("Waiting for %i seconds before reading the next file. About %i seconds remaining overall." % (r[i], sum(r[i:])))
+        sleep(r[i])
+    else:
+        print('\n')
 
 # sloppily wait for all the files to download asynchronously
 # I could just sleep here but I don't want to assume you'll download it quickly
@@ -45,7 +63,7 @@ while len(days) != day:
 points = {}
 for day in days:
     curPath = CACHE + day
-    f = open(curPath, 'r')
+    f = open(curPath, 'r', encoding = 'UTF-8')
     lines = f.readlines()
     f.close()
 
@@ -75,8 +93,6 @@ for day in days:
                 j += 1
 
             u = line[start:j]
-            if len(u.strip()) == 0:
-                print(line)
             points[u] = points.get(u, 0) + (101 - p)
 
 # Want the entire leaderboard? Just uncomment this
