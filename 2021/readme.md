@@ -58,3 +58,9 @@ Day 9
     part 1: 95
 
     part 2: 41
+
+Day 10
+
+    part 1: 112
+
+    part 2: 67

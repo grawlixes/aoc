@@ -114,7 +114,9 @@ print("There are %i unique scores on the leaderboard." % len(uniqueScores))
 if user not in points:
     print("User %s doesn't have any global points, so they are not on the leaderboard at all." % user)
 else:
-    greater = sum(points[u] > points[user] for u in points)
-    pos = sum(v > points[user] for v in set(points.values())) + 1
-    print("User %s is in position %i, accounting for ties." % (user, pos))
-    print("There are exactly %i users with a higher score than %s." % (greater, user))
+    pos = sum(v > points[user] for v in points.values()) + 1
+    tied = sum(v == points[user] for v in points.values()) - 1
+    print("User %s has %i point(s)." % (user, points[user])) 
+    print("User %s is in position %i." % (user, pos))
+    if tied > 0:
+        print("There are %i user(s) tied for this position with %s." % (tied, user))

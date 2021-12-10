@@ -1,0 +1,11 @@
+Solution and time (in seconds) for day 10
+
+p1:
+26397
+299793
+0.08
+
+p2:
+288957
+3654963618
+0.06
