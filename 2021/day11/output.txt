@@ -1,0 +1,11 @@
+Solution and time (in seconds) for day 11
+
+p1:
+1656
+1644
+0.17
+
+p2:
+195
+229
+0.17

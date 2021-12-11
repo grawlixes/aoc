@@ -64,3 +64,9 @@ Day 10
     part 1: 112
 
     part 2: 67
+
+Day 11
+
+    part 1: 2028
+
+    part 2: 1898
