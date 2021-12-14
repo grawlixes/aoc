@@ -82,3 +82,9 @@ Day 13
     part 1: 36
 
     part 2: 75
+
+Day 14
+
+    part 1: 473
+
+    part 2: 649
