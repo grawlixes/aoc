@@ -70,3 +70,15 @@ Day 11
     part 1: 2028
 
     part 2: 1898
+
+Day 12
+
+    part 1: 80
+
+    part 2: 810
+
+Day 13
+
+    part 1: 36
+
+    part 2: 75
