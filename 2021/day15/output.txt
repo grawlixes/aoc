@@ -1,0 +1,11 @@
+Solution and time (in seconds) for day 15
+
+p1:
+40
+656
+0.20
+
+p2:
+315
+2979
+2.72
