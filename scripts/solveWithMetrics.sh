@@ -1,5 +1,7 @@
 # This script takes a day (1 - 25) as an input, and for that day, runs the code I wrote and pipes the solution and execution time into a file.
 
+# Don't run this with 2022 or it won't work. 2022 has its own script.
+
 year=$1
 day=$2
 dir="../$1/day$day"
