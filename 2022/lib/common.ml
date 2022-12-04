@@ -1,5 +1,10 @@
 open Core;;
 
+let print_tuple t =
+    let (x,y) = t in
+    Printf.printf "(%d, %d)\n" x y
+;;
+
 let read_input path = 
     In_channel.read_all path
 ;;
