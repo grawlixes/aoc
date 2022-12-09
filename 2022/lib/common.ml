@@ -1,5 +1,13 @@
 open Core;;
 
+let min l = 
+    let rec aux acc = function
+        | [] -> acc
+        | h :: t -> aux (min acc h) t
+    in
+    aux Int.max_value l
+;; 
+
 let print_tuple t =
     let (x,y) = t in
     Printf.printf "(%d, %d)\n" x y
