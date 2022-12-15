@@ -28,23 +28,27 @@ let rec length = function
     | _ :: t -> 1 + (length t)
 ;;
 
-(* Maps array a according to function f, then flattens *)
-let map_and_flatten a f = 
-    List.concat (List.map ~f:f a)
-;;
-
 (* Generates a list [i, j) skipping by k *)
 let range i j k =
     List.init ((j - i) / k) ~f:(fun x -> (k*x + i))
 ;;
 
-(* Generates pairs (x, y) for x,y in [i, j) 
- * skipping by k *)
-let generate_pairs i j k =
-  let gen_range = fun x -> (i + x*k) in
-  map_and_flatten (List.init ((j - i) / k) ~f:gen_range)
+(* Maps array a according to function f, then flattens *)
+let map_and_flatten a f = 
+    List.concat (List.map ~f:f a)
+;;
+
+(* Generates pairs (x, y) for x in [i, i + n) and 
+ * j in [j, j + m) skipping by k 
+ * 12/14/22 I'm changing this, it might cause issues
+ * with old AOC functions
+ *)
+let generate_pairs i j n m k =
+  let gen_range_x = fun x -> (i + x*k) in
+  let gen_range_y = fun y -> (j + y*k) in
+  map_and_flatten (List.init (n / k) ~f:gen_range_x)
     (fun a ->
-      map_and_flatten (List.init ((j - i) / k) ~f:gen_range)
+      map_and_flatten (List.init (m / k) ~f:gen_range_y)
         (fun b -> [(a, b)])
     )
 ;;
