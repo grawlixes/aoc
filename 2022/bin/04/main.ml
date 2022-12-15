@@ -6,8 +6,8 @@ Printf.printf "Part 1:\n";;
 
 (* Edit this with the correct day *)
 let inp = 
-    [Common.read_input "./bin/4/sample.txt";
-     Common.read_input "./bin/4/input.txt"]
+    [Common.read_input "./bin/04/sample.txt";
+     Common.read_input "./bin/04/input.txt"]
 ;;
 
 let to_pair s =

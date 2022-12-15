@@ -6,8 +6,8 @@ Printf.printf "Part 1:\n";;
 
 (* Edit this with the correct day *)
 let inp = 
-    [Common.read_input "./bin/8/sample.txt";
-     Common.read_input "./bin/8/input.txt"]
+    [Common.read_input "./bin/08/sample.txt";
+     Common.read_input "./bin/08/input.txt"]
 ;;
 
 let on_edge grid i j =

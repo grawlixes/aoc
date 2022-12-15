@@ -16,8 +16,8 @@ end;;
 
 (* Edit this with the correct day *)
 let inp = 
-    [Common.read_input "./bin/9/sample.txt";
-     Common.read_input "./bin/9/input.txt"]
+    [Common.read_input "./bin/09/sample.txt";
+     Common.read_input "./bin/09/input.txt"]
 ;;
 
 let d_map c = match c with

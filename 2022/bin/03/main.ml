@@ -6,8 +6,8 @@ Printf.printf "Part 1:\n";;
 
 (* Edit this with the correct day *)
 let inp = 
-    [Common.read_input "./bin/3/sample.txt";
-     Common.read_input "./bin/3/input.txt"]
+    [Common.read_input "./bin/03/sample.txt";
+     Common.read_input "./bin/03/input.txt"]
 ;;
 
 let priority ch =

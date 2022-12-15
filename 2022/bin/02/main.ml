@@ -6,8 +6,8 @@ Printf.printf "Part 1:\n";;
 
 (* Edit this with the correct day *)
 let inp = 
-    [Common.read_input "./bin/2/sample.txt";
-     Common.read_input "./bin/2/input.txt"]
+    [Common.read_input "./bin/02/sample.txt";
+     Common.read_input "./bin/02/input.txt"]
 ;;
 
 let score c =

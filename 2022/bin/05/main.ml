@@ -6,8 +6,8 @@ Printf.printf "Part 1:\n";;
 
 (* Edit this with the correct day *)
 let inp = 
-    [Common.read_input "./bin/5/sample.txt";
-     Common.read_input "./bin/5/input.txt"]
+    [Common.read_input "./bin/05/sample.txt";
+     Common.read_input "./bin/05/input.txt"]
 ;;
 
 let lengths = [|3; 9|];;
