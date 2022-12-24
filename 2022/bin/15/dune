@@ -1,0 +1,6 @@
+(executable
+ (public_name 2022)
+ (name main)
+ (libraries str lib bignum core)
+ (preprocess (pps ppx_jane))
+)
