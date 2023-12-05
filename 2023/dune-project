@@ -1,0 +1,26 @@
+(lang dune 3.5)
+
+(name aoc-2023)
+
+(generate_opam_files true)
+
+(source
+ (github username/reponame))
+
+(authors "Kyle Franke")
+
+(maintainers "Kyle Franke")
+
+(license LICENSE)
+
+(documentation https://url/to/documentation)
+
+(package
+ (name aoc-2023)
+ (synopsis "the best advent of code solutions ever written")
+ (description "the best advent of code solutions ever written (im cool)")
+ (depends ocaml dune)
+ (tags
+  (topics "to describe" your project)))
+
+; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
